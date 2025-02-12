@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-"""A script that starts a flask web application"""
+"""
+A script that starts a flask web application
+
+This script initializes a Flask app that listens on 0.0.0.0, port 5000,
+and returns 'Hello HBNB!' when accessing the root URL.
+"""
 from flask import Flask
 
 app = Flask(__name__)
